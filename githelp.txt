@@ -1,0 +1,46 @@
+Команды на один раз для устройства ПК\Ноут
+git config --global user.name "Your name"
+git config --global user.email "your-email@example.com"
+
+---------------------------------------------------------------------------------------------------
+команды на один раз в проекте 
+git init | Команда для создания скрытого файла .git
+git remote add origin https://github.com/arzy-51-2/oop-51-2.git | для привязки проекта к репе
+
+
+---------------------------------------------------------------------------------------------------
+Команды которые часта пишутся в проекте
+git status   | Команда для просмотра состояния проекта или просмотра изменений
+git add .    |  Команда копирует и сохраняет в буфер ( Невидемый )
+git commit -m "commit message"    | Команда сохраняет изменения в файле .git
+git push origin master|main | Команда отправляет изменения в репозиторий и сохраняет его там
+
+git branch  | на какой ветке мы находимся
+
+git branch branch_name | создание ветки
+git switch branch_name | переключение на ветку
+
+удаление папки
+git rm -r путь/к/папке|file_name
+git add .
+git commit -m "Удалил папку путь/к/папке с её содержимым"
+
+
+стянуть данные из указанной ветки
+локально
+git merge branch_name
+git pull origin main
+
+git clone link | для клонирования репозитория | проекта
+
+
+Production
+dev | stage
+
+Feat/register
+Fix/register
+Update/register
+
+feat: added register in file apps/users/register.py  #123312
+fix: fixed register in file register.py  #123312
+update: updated register in file register.py  #123312
